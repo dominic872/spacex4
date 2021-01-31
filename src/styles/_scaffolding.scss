@@ -1,0 +1,92 @@
+html {
+  font-size: $font-size;
+  font-family: $font-family;
+  background: $background-color;
+  color: $font-color;
+  max-width: $page-width;
+  line-height: 1.4;
+}
+
+body {
+  margin: 0;
+  width: 100vw;
+  background: green !important;
+}
+
+.container-fluid,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl {
+  background: #f2f2f2;
+  max-width: 1440px;
+}
+.container-fluid h1,
+.container-sm h1,
+.container-md h1,
+.container-lg h1,
+.container-xl h1 {
+  font-size: 22px;
+  color: #333;
+  font-weight: bold;
+}
+
+div.filter-group {
+  background: #fff;
+  margin: 10px 0;
+}
+div.filter-group span {
+  display: inline-block;
+  border-bottom: 1px solid #333;
+  padding: 0 10px;
+  margin-bottom: 10px;
+  background: red;
+}
+div.filter-group div {
+  text-align: center;
+  margin-bottom: 15px;
+  background: yellow !important;
+}
+
+.products .product-group {
+  background: #f2f2f2;
+  padding: 10px;
+}
+
+.products .product-tile {
+  color: #464ca6;
+  padding: 0 5px;
+}
+.products .product-tile ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0;
+}
+.products .product-tile ul > li:first-child {
+  color: #464ca6;
+}
+.products .product-tile ul > li {
+  color: #333;
+}
+
+.display-product {
+  margin: 5px 0;
+  background: #fff;
+  padding: 20px;
+}
+
+.btn.btn-success.btn-sm,
+.btn-group-sm > .btn.btn-success {
+  margin: 8px 20px;
+  min-width: 70px;
+  background: #bee293;
+  color: #333;
+}
+
+.btn.btn-success:focus,
+.btn.btn-success.focus,
+.btn.btn-success:hover,
+.btn.btn-success.hover {
+  background-color: #1e7e34;
+  color: #fff;
+}
